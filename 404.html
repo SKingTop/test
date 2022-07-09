@@ -1,0 +1,738 @@
+<!doctype html>
+<html class="no-js" lang="ru">
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Ювилс</title>
+        <meta content="" name="description">
+        <meta content="" name="keywords">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <meta content="telephone=no" name="format-detection">
+        <meta name="HandheldFriendly" content="true">
+        <link href="static/css/main.min.css" rel="stylesheet" type="text/css">
+        <link type="text/css" rel="stylesheet" href="lightgallery/css/lightgallery.css" />
+
+        <link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png">
+        <link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-icon-60x60.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="favicon/apple-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="favicon/apple-icon-76x76.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="favicon/apple-icon-114x114.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="favicon/apple-icon-120x120.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="favicon/apple-icon-144x144.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="favicon/apple-icon-152x152.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-icon-180x180.png">
+        <link rel="icon" type="image/png" sizes="192x192" href="favicon/android-icon-192x192.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="96x96" href="favicon/favicon-96x96.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+        <link rel="manifest" href="favicon/manifest.json">
+        <meta name="msapplication-TileColor" content="#ffffff">
+        <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+        <meta name="theme-color" content="#ffffff">
+
+        <script>
+            (function(H){H.className=H.className.replace(/\bno-js\b/,'js')})(document.documentElement)
+        </script>
+    </head>
+
+    <body class="page">
+
+
+        <header class="header">
+            <nav class="header__nav">
+                <div class="wrapper">
+                    <div class="header__home">
+                        <img src="static/img/content/home.svg" alt="">
+                    </div>
+                    <ul class="header__nav-menu">
+                        <li class="nav-link"><a href="index.html#investment-block">услуги</a>
+                        </li>
+                        <li class="nav-link"><a href="index.html#company-block">о компании</a>
+                        </li>
+                        <li class="nav-link"><a href="index.html#advantages-block">преимущества</a>
+                        </li>
+                        <li class="nav-link"><a href="index.html#questions-block">Ответы на популярные вопросы</a>
+                        </li>
+                        <li class="nav-link"><a href="index.html#contacts-block">контакты</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <div class="header__content">
+                <div class="wrapper">
+                    <div class="header__logo">
+                        <a href="index.html">
+                            <img class="default-logo" src="static/img/content/logo.svg" alt="">
+                            <img class="reversed-color-logo" src="static/img/content/logo-reversed-color.svg" alt="">
+                        </a>
+                    </div>
+                    <div class="header__address">
+                        <div popup-open="map-popup">
+                            <img src="static/img/content/address.svg" alt=""><span>г. Минск, ул. Притыцкого
+                                160</span>
+                        </div>
+                    </div>
+                    <div class="header__consultation">
+                        <div>
+                            <span><img src="static/img/general/photo-1.png" alt=""></span>
+                            <p>Есть вопрос? <b>Задайте онлайн</b>
+                            </p>
+                            <div>
+                                <a href="https://web.telegram.org/" target="_blank" class="social-link telegram-icon">
+                                    <img src="static/img/content/telegram.svg" alt=""><span>Telegram</span>
+                                </a>
+                                <a href="https://www.viber.com/ru/" target="_blank" class="social-link viber-icon">
+                                    <img src="static/img/content/viber.svg" alt=""><span>Viber</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="header__contacts">
+                        <a href="tel:#">+375 (29) 888-83-82</a>
+                        <div popup-open="call-back-popup-1">
+                            Заказать обратный звонок
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <section class="header__mobile">
+            <div class="wrapper">
+                <div class="header__logo">
+                    <a href="index.html">
+                        <img class="default-logo" src="static/img/content/logo.svg" alt="">
+                        <img class="reversed-color-logo" src="static/img/content/logo-reversed-color.svg" alt="">
+                    </a>
+                </div>
+                <div class="header__contacts">
+                    <a href="tel:#">+375 (29) 888-83-82</a>
+                    <div popup-open="call-back-popup-1">
+                        Заказать обратный звонок
+                    </div>
+                </div>
+                <div class="header__mobile-btn" headerMobileBtn>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </section>
+        <section class="error-page">
+            <div class="wrapper">
+                <div>
+                    <div class="error-page__title" on-scroll-display>Ой!</div>
+                    <div class="error-page__text">
+                        Похоже мы не можем найти нужную вам страницу
+                    </div>
+                    <div class="error-page__btn-container">
+                        <a href="index.html" class="error-page__btn style-blue-btn">
+                            <span>Вернуться на главную</span>
+                            <img src="static/img/content/arrow.svg" alt="">
+                        </a>
+                    </div>
+                </div>
+                <div>
+                    <div class="error-page__number">404</div>
+                </div>
+                <img src="static/img/general/blue-blur-bg.png" alt="" class="error-page__bg mod-bg-1">
+                <img src="static/img/general/blue-blur-bg.png" alt="" class="error-page__bg mod-bg-2">
+            </div>
+        </section>
+        <!-- Видео -->
+        <div class="popup" popupID="dQw4w9WgXcQ">
+            <div class="popup__container">
+                <div class="popup__block video-popup">
+                    <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope" allowfullscreen></iframe>
+                </div>
+                <div class="popup__blur" popup-close></div>
+            </div>
+        </div>
+        <!-- Сладйер видео 1 -->
+        <div class="popup" popupID="z3LCkHE4hB4">
+            <div class="popup__container">
+                <div class="popup__block video-popup">
+                    <iframe src="https://www.youtube.com/embed/z3LCkHE4hB4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope" allowfullscreen></iframe>
+                </div>
+                <div class="popup__blur" popup-close></div>
+            </div>
+        </div>
+        <!-- Слайдер видео 2 -->
+        <div class="popup" popupID="jNbU3sMiYTg">
+            <div class="popup__container">
+                <div class="popup__block video-popup">
+                    <iframe src="https://www.youtube.com/embed/jNbU3sMiYTg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope" allowfullscreen></iframe>
+                </div>
+                <div class="popup__blur" popup-close></div>
+            </div>
+        </div>
+        <!-- Карта -->
+        <div class="popup" popupID="map-popup">
+            <div class="popup__container">
+                <div class="popup__block map-popup">
+                    <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A2f4b565cfd1407df57c594c4bbb62fae312206ac65bc842fbc40f5781612b1dc&amp;source=constructor" frameborder="0"></iframe>
+                </div>
+                <div class="popup__blur" popup-close></div>
+            </div>
+        </div>
+        <!-- Политика -->
+        <div class="popup" popupID="politika-popup">
+            <div class="popup__container">
+                <div class="popup__block politika-popup">
+                    <div class="politika-content">
+                        <h2>Политика конфеденциальности</h2>
+                        <p>Настоящая Политика конфиденциальности персональных данных (далее – Политика конфиденциальности) действует в отношении всей информации, которую сайт&nbsp;, (далее – ) расположенный на доменном имени&nbsp;(а также его субдоменах),
+                            может получить о Пользователе во время использования сайта (а также его субдоменов), его программ и его продуктов.
+                        </p>
+                        <h2>1. Определение терминов</h2>
+                        <p><strong>1.1 В настоящей Политике конфиденциальности используются следующие термины:</strong>
+                        </p>
+                        <p>1.1.1. «<strong>Администрация сайта</strong>» (далее – Администрация) – уполномоченные сотрудники на управление сайтом&nbsp;, которые организуют и (или) осуществляют обработку персональных данных, а также определяет цели обработки
+                            персональных данных, состав персональных данных, подлежащих обработке, действия (операции), совершаемые с персональными данными.</p>
+                        <p>1.1.2. «Персональные данные» — любая информация, относящаяся к прямо или косвенно определенному, или определяемому физическому лицу (субъекту персональных данных).</p>
+                        <p>1.1.3. «Обработка персональных данных» — любое действие (операция) или совокупность действий (операций), совершаемых с использованием средств автоматизации или без использования таких средств с персональными данными, включая сбор,
+                            запись, систематизацию, накопление, хранение, уточнение (обновление, изменение), извлечение, использование, передачу (распространение, предоставление, доступ), обезличивание, блокирование, удаление, уничтожение персональных
+                            данных.</p>
+                        <p>1.1.4. «Конфиденциальность персональных данных» — обязательное для соблюдения Оператором или иным получившим доступ к персональным данным лицом требование не допускать их распространения без согласия субъекта персональных данных
+                            или наличия иного законного основания.</p>
+                        <p>1.1.5. «Сайт » — это совокупность связанных между собой веб-страниц, размещенных в сети Интернет по уникальному адресу (URL):&nbsp; https://demo.quizlanding.ru/, а также его субдоменах.</p>
+                        <p>1.1.6. «Субдомены» — это страницы или совокупность страниц, расположенные на доменах третьего уровня, принадлежащие сайту , а также другие временные страницы, внизу который указана контактная информация Администрации
+                        </p>
+                        <p>1.1.5. «Пользователь сайта&nbsp;» (далее Пользователь) – лицо, имеющее доступ к сайту&nbsp;, посредством сети Интернет и использующее информацию, материалы и продукты сайта&nbsp;.</p>
+                        <p>1.1.7. «Cookies» — небольшой фрагмент данных, отправленный веб-сервером и хранимый на компьютере пользователя, который веб-клиент или веб-браузер каждый раз пересылает веб-серверу в HTTP-запросе при попытке открыть страницу соответствующего
+                            сайта.
+                        </p>
+                        <p>1.1.8. «IP-адрес» — уникальный сетевой адрес узла в компьютерной сети, через который Пользователь получает доступ на .</p>
+                        <h2>2. Общие положения</h2>
+                        <p>2.1. Использование сайта Пользователем означает согласие с настоящей Политикой конфиденциальности и условиями обработки персональных данных Пользователя.</p>
+                        <p>2.2. В случае несогласия с условиями Политики конфиденциальности Пользователь должен прекратить использование сайта .</p>
+                        <p>2.3. Настоящая Политика конфиденциальности применяется к сайту . не контролирует и не несет ответственность за сайты третьих лиц, на которые Пользователь может перейти по ссылкам, доступным на сайте .</p>
+                        <p>2.4. Администрация не проверяет достоверность персональных данных, предоставляемых Пользователем.</p>
+                        <h2>3. Предмет политики конфиденциальности</h2>
+                        <p>3.1. Настоящая Политика конфиденциальности устанавливает обязательства Администрации по неразглашению и обеспечению режима защиты конфиденциальности персональных данных, которые Пользователь предоставляет по запросу Администрации
+                            при регистрации на сайте или при подписке на информационную e-mail рассылку.</p>
+                        <p>3.2. Персональные данные, разрешённые к обработке в рамках настоящей Политики конфиденциальности, предоставляются Пользователем путём заполнения форм на сайте и включают в себя следующую информацию:
+                            <br>3.2.1. фамилию, имя, отчество Пользователя;
+                            <br>3.2.2. контактный телефон Пользователя;
+                            <br>3.2.3. адрес электронной почты (e-mail)
+                            <br>3.2.4. место жительство Пользователя (при необходимости)
+                            <br>3.2.5. фотографию (при необходимости)</p>
+                        <p>3.3. защищает Данные, которые автоматически передаются при посещении страниц:
+                            <br>— IP адрес;
+                            <br>— информация из cookies;
+                            <br>— информация о браузере
+                            <br>— время доступа;
+                            <br>— реферер (адрес предыдущей страницы).
+                        </p>
+                        <p>3.3.1. Отключение cookies может повлечь невозможность доступа к частям сайта&nbsp;, требующим авторизации.
+                        </p>
+                        <p>3.3.2. осуществляет сбор статистики об IP-адресах своих посетителей. Данная информация используется с целью предотвращения, выявления и решения технических проблем.</p>
+                        <p>3.4. Любая иная персональная информация неоговоренная выше (история посещения, используемые браузеры, операционные системы и т.д.) подлежит надежному хранению и нераспространению, за исключением случаев, предусмотренных в п.п.
+                            5.2. настоящей Политики конфиденциальности.</p>
+                        <h2>4. Цели сбора персональной информации пользователя</h2>
+                        <p>4.1. Персональные данные Пользователя Администрация может использовать в целях:
+                            <br>4.1.1. Идентификации Пользователя, зарегистрированного на сайте для его дальнейшей авторизации.
+                            <br>4.1.2. Предоставления Пользователю доступа к персонализированным данным сайта .
+                            <br>4.1.3. Установления с Пользователем обратной связи, включая направление уведомлений, запросов, касающихся использования сайта , обработки запросов и заявок от Пользователя.
+                            <br>4.1.4. Определения места нахождения Пользователя для обеспечения безопасности, предотвращения мошенничества.
+                            <br>4.1.5. Подтверждения достоверности и полноты персональных данных, предоставленных Пользователем.
+                            <br>4.1.6. Создания учетной записи для использования частей сайта , если Пользователь дал согласие на создание учетной записи.
+                            <br>4.1.7. Уведомления Пользователя по электронной почте.
+                            <br>4.1.8. Предоставления Пользователю эффективной технической поддержки при возникновении проблем, связанных с использованием сайта .
+                            <br>4.1.9. Предоставления Пользователю с его согласия специальных предложений, новостной рассылки и иных сведений от имени сайта .</p>
+                        <h2>5. Способы и сроки обработки персональной информации</h2>
+                        <p>5.1. Обработка персональных данных Пользователя осуществляется без ограничения срока, любым законным способом, в том числе в информационных системах персональных данных с использованием средств автоматизации или без использования
+                            таких средств.
+                        </p>
+                        <p>5.2. Персональные данные Пользователя могут быть переданы уполномоченным органам государственной власти Российской Федерации только по основаниям и в порядке, установленным законодательством Российской Федерации.
+                        </p>
+                        <p>5.3. При утрате или разглашении персональных данных Администрация вправе не информировать Пользователя об утрате или разглашении персональных данных.</p>
+                        <p>5.4. Администрация принимает необходимые организационные и технические меры для защиты персональной информации Пользователя от неправомерного или случайного доступа, уничтожения, изменения, блокирования, копирования, распространения,
+                            а также от иных неправомерных действий третьих лиц.</p>
+                        <p>5.5. Администрация совместно с Пользователем принимает все необходимые меры по предотвращению убытков или иных отрицательных последствий, вызванных утратой или разглашением персональных данных Пользователя.
+                        </p>
+                        <h2>6. Права и обязанности сторон</h2>
+                        <p><strong>6.1. Пользователь вправе:</strong>
+                        </p>
+                        <p>6.1.1. Принимать свободное решение о предоставлении своих персональных данных, необходимых для использования сайта , и давать согласие на их обработку.</p>
+                        <p>6.1.2. Обновить, дополнить предоставленную информацию о персональных данных в случае изменения данной информации.
+                        </p>
+                        <p>6.1.3. Пользователь имеет право на получение у Администрации информации, касающейся обработки его персональных данных, если такое право не ограничено в соответствии с федеральными законами. Пользователь вправе требовать от Администрации
+                            уточнения его персональных данных, их блокирования или уничтожения в случае, если персональные данные являются неполными, устаревшими, неточными, незаконно полученными или не являются необходимыми для заявленной цели обработки,
+                            а также принимать предусмотренные законом меры по защите своих прав. Для этого достаточно уведомить Администрацию по указаному E-mail адресу.</p>
+                        <p><strong>6.2. Администрация обязана:</strong>
+                        </p>
+                        <p>6.2.1. Использовать полученную информацию исключительно для целей, указанных в п. 4 настоящей Политики конфиденциальности.
+                        </p>
+                        <p>6.2.2. Обеспечить хранение конфиденциальной информации в тайне, не разглашать без предварительного письменного разрешения Пользователя, а также не осуществлять продажу, обмен, опубликование, либо разглашение иными возможными способами
+                            переданных персональных данных Пользователя, за исключением п.п. 5.2. настоящей Политики Конфиденциальности.
+                        </p>
+                        <p>6.2.3. Принимать меры предосторожности для защиты конфиденциальности персональных данных Пользователя согласно порядку, обычно используемого для защиты такого рода информации в существующем деловом обороте.
+                        </p>
+                        <p>6.2.4. Осуществить блокирование персональных данных, относящихся к соответствующему Пользователю, с момента обращения или запроса Пользователя, или его законного представителя либо уполномоченного органа по защите прав субъектов
+                            персональных данных на период проверки, в случае выявления недостоверных персональных данных или неправомерных действий.
+                        </p>
+                        <h2>Ответственность сторон</h2>
+                        <p>7.1. Администрация, не исполнившая свои обязательства, несёт ответственность за убытки, понесённые Пользователем в связи с неправомерным использованием персональных данных, в соответствии с законодательством Российской Федерации,
+                            за исключением случаев, предусмотренных п.п. 5.2. и 7.2. настоящей Политики Конфиденциальности.</p>
+                        <p>7.2. В случае утраты или разглашения Конфиденциальной информации Администрация не несёт ответственность, если данная конфиденциальная информация:
+                            <br>7.2.1. Стала публичным достоянием до её утраты или разглашения.
+                            <br>7.2.2. Была получена от третьей стороны до момента её получения Администрацией Ресурса.
+                            <br>7.2.3. Была разглашена с согласия Пользователя.
+                        </p>
+                        <p>7.3. Пользователь несет полную ответственность за соблюдение требований законодательства РФ, в том числе законов о рекламе, о защите авторских и смежных прав, об охране товарных знаков и знаков обслуживания, но не ограничиваясь
+                            перечисленным, включая полную ответственность за содержание и форму материалов.</p>
+                        <p>7.4. Пользователь признает, что ответственность за любую информацию (в том числе, но не ограничиваясь: файлы с данными, тексты и т. д.), к которой он может иметь доступ как к части сайта , несет лицо, предоставившее такую информацию.</p>
+                        <p>7.5. Пользователь соглашается, что информация, предоставленная ему как часть сайта , может являться объектом интеллектуальной собственности, права на который защищены и принадлежат другим Пользователям, партнерам или рекламодателям,
+                            которые размещают такую информацию на сайте .
+                            <br>Пользователь не вправе вносить изменения, передавать в аренду, передавать на условиях займа, продавать, распространять или создавать производные работы на основе такого Содержания (полностью или в части), за исключением случаев,
+                            когда такие действия были письменно прямо разрешены собственниками такого Содержания в соответствии с условиями отдельного соглашения.</p>
+                        <p>7.6. В отношение текстовых материалов (статей, публикаций, находящихся в свободном публичном доступе на сайте ) допускается их распространение при условии, что будет дана ссылка на .</p>
+                        <p>7.7. Администрация не несет ответственности перед Пользователем за любой убыток или ущерб, понесенный Пользователем в результате удаления, сбоя или невозможности сохранения какого-либо Содержания и иных коммуникационных данных,
+                            содержащихся на сайте или передаваемых через него.</p>
+                        <p>7.8. Администрация не несет ответственности за любые прямые или косвенные убытки, произошедшие из-за: использования либо невозможности использования сайта, либо отдельных сервисов; несанкционированного доступа к коммуникациям Пользователя;
+                            заявления или поведение любого третьего лица на сайте.</p>
+                        <p>7.9. Администрация не несет ответственность за какую-либо информацию, размещенную пользователем на сайте , включая, но не ограничиваясь: информацию, защищенную авторским правом, без прямого согласия владельца авторского права.</p>
+                        <h2>8. Разрешение споров</h2>
+                        <p>8.1. До обращения в суд с иском по спорам, возникающим из отношений между Пользователем и Администрацией, обязательным является предъявление претензии (письменного предложения или предложения в электронном виде о добровольном урегулировании
+                            спора).
+                        </p>
+                        <p>8.2. Получатель претензии в течение 30 календарных дней со дня получения претензии, письменно или в электронном виде уведомляет заявителя претензии о результатах рассмотрения претензии.</p>
+                        <p>8.3. При не достижении соглашения спор будет передан на рассмотрение Арбитражного суда г. .</p>
+                        <p>8.4. К настоящей Политике конфиденциальности и отношениям между Пользователем и Администрацией применяется действующее законодательство Российской Федерации.</p>
+                        <h2>9. Дополнительные условия</h2>
+                        <p>9.1. Администрация вправе вносить изменения в настоящую Политику конфиденциальности без согласия Пользователя.
+                        </p>
+                        <p>9.2. Новая Политика конфиденциальности вступает в силу с момента ее размещения на сайте , если иное не предусмотрено новой редакцией Политики конфиденциальности.</p>
+                        <p>9.3. Все предложения или вопросы касательно настоящей Политики конфиденциальности следует сообщать по адресу:
+                        </p>
+                        <p>9.4. Действующая Политика конфиденциальности размещена на странице по адресу http:///politika.html
+                        </p>
+                        <p>Обновлено: 29 Сентября 2021 года</p>
+                    </div>
+                    <div class="popup__close" popup-close>
+                        <img src="static/img/content/close.svg" alt="" class="img-svg">
+                    </div>
+                </div>
+                <div class="popup__blur" popup-close></div>
+            </div>
+        </div>
+        <!-- Новости -->
+        <div class="popup" popupID="news-popup-1">
+            <div class="popup__container">
+                <div class="popup__block news-popup">
+                    <img src="static/img/general/news.png" alt="">
+                    <div class="news-popup__content">
+                        <!-- Контент идентичен контенту в блоке новости -->
+                        <p>15 июня 2022</p>
+                        <p>
+                            Токены «Ювилс Лизнг» (BYN_293) продаются на платформе finstore.by. Лизинговая компания «Ювилс Лизнг» предлагает инвесторам токены, номинированные в белорусских рублях.
+                        </p>
+                        <p>
+                            Токены номиналом 50 BYN выпущены на 24 месяца под ставку 33,5,0% годовых. Проценты по ним будут выплачиваться ежемесячно.
+                        </p>
+                        <p>
+                            Оферта по токенам BYN_293 – два раза в год в размере 25 % от общего объема размещенных (проданных) и находящихся в обращении на момент подачи заявки) токенов.
+                        </p>
+                        <!-- Контент идентичен контенту в блоке новости -->
+                    </div>
+                    <div class="popup__close" popup-close>
+                        <img src="static/img/content/close.svg" alt="" class="img-svg">
+                    </div>
+                </div>
+            </div>
+            <div class="popup__blur" popup-close></div>
+        </div>
+        <div class="popup" popupID="news-popup-2">
+            <div class="popup__container">
+                <div class="popup__block news-popup">
+                    <img src="static/img/general/news.png" alt="">
+                    <div class="news-popup__content">
+                        <!-- Контент идентичен контенту в блоке новости -->
+                        <p>15 июня 2022</p>
+                        <p>
+                            Токены «Ювилс Лизнг» (BYN_293) продаются на платформе finstore.by. Лизинговая компания «Ювилс Лизнг» предлагает инвесторам токены, номинированные в белорусских рублях.
+                        </p>
+                        <p>
+                            Токены номиналом 50 BYN выпущены на 24 месяца под ставку 33,5,0% годовых. Проценты по ним будут выплачиваться ежемесячно.
+                        </p>
+                        <p>
+                            Оферта по токенам BYN_293 – два раза в год в размере 25 % от общего объема размещенных (проданных) и находящихся в обращении на момент подачи заявки) токенов.
+                        </p>
+                        <!-- Контент идентичен контенту в блоке новости -->
+                    </div>
+                    <div class="popup__close" popup-close>
+                        <img src="static/img/content/close.svg" alt="" class="img-svg">
+                    </div>
+                </div>
+            </div>
+            <div class="popup__blur" popup-close></div>
+        </div>
+        <div class="popup" popupID="news-popup-3">
+            <div class="popup__container">
+                <div class="popup__block news-popup">
+                    <img src="static/img/general/news.png" alt="">
+                    <div class="news-popup__content">
+                        <!-- Контент идентичен контенту в блоке новости -->
+                        <p>15 июня 2022</p>
+                        <p>
+                            Токены «Ювилс Лизнг» (BYN_293) продаются на платформе finstore.by. Лизинговая компания «Ювилс Лизнг» предлагает инвесторам токены, номинированные в белорусских рублях.
+                        </p>
+                        <p>
+                            Токены номиналом 50 BYN выпущены на 24 месяца под ставку 33,5,0% годовых. Проценты по ним будут выплачиваться ежемесячно.
+                        </p>
+                        <p>
+                            Оферта по токенам BYN_293 – два раза в год в размере 25 % от общего объема размещенных (проданных) и находящихся в обращении на момент подачи заявки) токенов.
+                        </p>
+                        <!-- Контент идентичен контенту в блоке новости -->
+                    </div>
+                    <div class="popup__close" popup-close>
+                        <img src="static/img/content/close.svg" alt="" class="img-svg">
+                    </div>
+                </div>
+            </div>
+            <div class="popup__blur" popup-close></div>
+        </div>
+        <!-- Перезвоните мне -->
+        <div class="popup" popupID="call-back-popup-1">
+            <div class="popup__container">
+                <div class="popup__block call-back-popup">
+                    <div class="call-back-popup__text-side" show-all-container_JS>
+                        <p>
+                            Вам перезвонит
+                            <br>наш менеджер:
+                        </p>
+                        <ul>
+                            <li show-all-item_JS><span><img src="static/img/content/check.svg" class="img-svg" alt=""></span>
+                                <div>
+                                    <b>Расскажет</b> почему наша компания надежная для инвестиций
+                                </div>
+                            </li>
+                            <li show-all-item_JS><span><img src="static/img/content/check.svg" class="img-svg" alt=""></span>
+                                <div><b>Пояснит</b> что такое токен</div>
+                            </li>
+                            <li show-all-item_JS><span><img src="static/img/content/check.svg" class="img-svg" alt=""></span>
+                                <div>
+                                    <b>Расскажет</b> конкретно по параметрам нашего токена
+                                </div>
+                            </li>
+                            <li show-all-item_JS><span><img src="static/img/content/check.svg" class="img-svg" alt=""></span>
+                                <div>
+                                    <b>Поможет</b> зарегистрироваться и сделать покупку
+                                </div>
+                            </li>
+                        </ul>
+                        <div class="call-back-popup__btn-container">
+                            <span class="call-back__show-all-btn style-dotted" show-all_JS>Открыть все новости</span>
+                        </div>
+                    </div>
+                    <div class="call-back-popup__form-side">
+                        <p>Перезвоните мне</p>
+                        <span>
+                            Введите ваш номер телефона и
+                            мы Вам перезвоним за 15 минут
+                        </span>
+                        <form action="#" class="call-back-form popup-form">
+                            <input type="text" class="call-back-form__input popup-form__input" phoneMask_JS placeholder="Ваш телефон" required>
+                            <button class="style-blue-btn call-back-form__btn popup-form__btn" agreementControl_JS>
+                                <span>Перезвоните мне</span>
+                                <img src="static/img/content/arrow.svg" alt="">
+                            </button>
+                            <div class="call-back-form__agreement popup-form__agreement">
+                                <span class="call-back-form__checkbox popup-form__checkbox checked checkbox-style-mod" checkBox_JS>
+                                    <input type="checkbox" checked="checked">
+                                    <img src="static/img/content/check.svg" class="img-svg" alt="">
+                                </span>
+                                <p>Вы соглашаетесь с условиями обработки <b popup-open="politika-popup">персональных данных</b>
+                                </p>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="popup__close" popup-close>
+                        <img src="static/img/content/close.svg" alt="" class="img-svg">
+                    </div>
+                </div>
+                <div class="popup__blur" popup-close></div>
+            </div>
+        </div>
+        <!-- Позвоните мне вариант 2 -->
+        <div class="popup" popupID="call-back-popup-2">
+            <div class="popup__container">
+                <div class="popup__block call-back-popup mod-call-back-style-2">
+                    <div class="call-back-popup__text-side" show-all-container_JS>
+                        <p>
+                            Вам перезвонит
+                            <br>наш менеджер:
+                        </p>
+                        <ul>
+                            <li show-all-item_JS><span><img src="static/img/content/check.svg" class="img-svg" alt=""></span>
+                                <div>
+                                    <b>Уточним</b> ваши потребности
+                                </div>
+                            </li>
+                            <li show-all-item_JS><span><img src="static/img/content/check.svg" class="img-svg" alt=""></span>
+                                <div>
+                                    <b>Выясним</b> подходит ли наш продукт вам
+                                </div>
+                            </li>
+                            <li show-all-item_JS><span><img src="static/img/content/check.svg" class="img-svg" alt=""></span>
+                                <div>
+                                    <b>Расскажем</b> почему с нами стоит работать и какие выгоды вы получиет
+                                </div>
+                            </li>
+                            <li show-all-item_JS><span><img src="static/img/content/check.svg" class="img-svg" alt=""></span>
+                                <div>
+                                    <b>Расскажем</b> подробно как проходит процесс работы с нами
+                                </div>
+                            </li>
+                            <li show-all-item_JS><span><img src="static/img/content/check.svg" class="img-svg" alt=""></span>
+                                <div>
+                                    Если все хорошо, <b>то приступим к этапу договора,</b> если нет, то договоримся о встрече для более подробной беседы
+                                </div>
+                            </li>
+                        </ul>
+                        <div class="call-back-popup__btn-container">
+                            <span class="call-back__show-all-btn style-dotted" show-all_JS>Открыть все новости</span>
+                        </div>
+                    </div>
+                    <div class="call-back-popup__form-side">
+                        <p>Перезвоните мне</p>
+                        <span>
+                            Введите ваш номер телефона и
+                            мы Вам перезвоним за 15 минут
+                        </span>
+                        <form action="#" class="call-back-form popup-form">
+                            <input type="text" class="call-back-form__input popup-form__input" phoneMask_JS placeholder="Ваш телефон" required>
+                            <button class="style-blue-btn call-back-form__btn popup-form__btn" agreementControl_JS>
+                                <span>Перезвоните мне</span>
+                                <img src="static/img/content/arrow.svg" alt="">
+                            </button>
+                            <div class="call-back-form__agreement popup-form__agreement">
+                                <span class="call-back-form__checkbox popup-form__checkbox checked checkbox-style-mod" checkBox_JS>
+                                    <input type="checkbox" checked="checked">
+                                    <img src="static/img/content/check.svg" class="img-svg" alt="">
+                                </span>
+                                <p>Вы соглашаетесь с условиями обработки <b popup-open="politika-popup">персональных данных</b>
+                                </p>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="popup__close" popup-close>
+                        <img src="static/img/content/close.svg" alt="" class="img-svg">
+                    </div>
+                </div>
+                <div class="popup__blur" popup-close></div>
+            </div>
+        </div>
+        <!-- Скачать прайс -->
+        <div class="popup" popupID="download-popup">
+            <div class="popup__container">
+                <div class="popup__block download-popup">
+                    <a href="files/file.txt" download>
+                        <img src="static/img/content/pdf-circle.svg" alt="">
+                        <span>Pdf 2,5 мб</span>
+                    </a>
+                    <div class="download-popup__form">
+                        <span>
+                            В знак нашего знакомства
+                            скачайте <b>полезное пособие</b>
+                        </span>
+                        <p>
+                            10 ошибок инвестора
+                        </p>
+                        <form action="#" class="download-popup-form popup-form">
+                            <input type="text" class="download-popup-form__input popup-form__input" phoneMask_JS placeholder="Ваш телефон" required>
+                            <button class="style-blue-btn download-popup-form__btn popup-form__btn" agreementControl_JS>
+                                <span>Скачать</span>
+                                <img src="static/img/content/arrow.svg" alt="">
+                            </button>
+                            <div class="download-popup-form__agreement popup-form__agreement">
+                                <span class="download-popup-form__checkbox popup-form__checkbox checked checkbox-style-mod" checkBox_JS>
+                                    <input type="checkbox" checked="checked">
+                                    <img src="static/img/content/check.svg" class="img-svg" alt="">
+                                </span>
+                                <p>Вы соглашаетесь с условиями обработки <b popup-open="politika-popup">персональных данных</b>
+                                </p>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="popup__close" popup-close>
+                        <img src="static/img/content/close.svg" alt="" class="img-svg">
+                    </div>
+                </div>
+                <div class="popup__blur" popup-close></div>
+            </div>
+        </div>
+        <!-- Стать партнером -->
+        <div class="popup" popupID="partners-popup">
+            <div class="popup__container">
+                <div class="popup__block partners-popup">
+                    <div class="partners-popup__info">
+                        <div>
+                            <img src="static/img/content/arrow-blue.svg" alt="" class="img-svg">
+                        </div>
+                        <p>
+                            Михаил Сергеев
+                        </p>
+                        <span>
+                            Главный
+                            менеджер
+                        </span>
+                    </div>
+                    <div class="partners-popup__form">
+                        <p>
+                            Стать партнером
+                        </p>
+                        <span>
+                            Введите ваш номер телефона и
+                            мы Вам перезвоним за 15 минут
+                        </span>
+                        <form action="#" class="partners-popup-form popup-form">
+                            <input type="text" class="partners-popup-form__input popup-form__input" phoneMask_JS placeholder="Ваш телефон" required>
+                            <button class="style-blue-btn partners-popup-form__btn popup-form__btn" agreementControl_JS>
+                                <span>Стать партнером</span>
+                                <img src="static/img/content/arrow.svg" alt="">
+                            </button>
+                            <div class="partners-popup-form__agreement popup-form__agreement">
+                                <span class="partners-popup-form__checkbox popup-form__checkbox checked checkbox-style-mod" checkBox_JS>
+                                    <input type="checkbox" checked="checked">
+                                    <img src="static/img/content/check.svg" class="img-svg" alt="">
+                                </span>
+                                <p>Вы соглашаетесь с условиями обработки <b popup-open="politika-popup">персональных данных</b>
+                                </p>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="popup__close" popup-close>
+                        <img src="static/img/content/close.svg" alt="" class="img-svg">
+                    </div>
+                </div>
+                <div class="popup__blur" popup-close></div>
+            </div>
+        </div>
+        <!-- Попап результата -->
+        <div class="popup" popupID="result-popup-1">
+            <div class="popup__container">
+                <div class="popup__block result-popup">
+                    <div>
+                        <p>
+                            Станция технического обслуживания «Газ- Альтернатива»
+                        </p>
+                        <img src="static/img/general/result-slide-1.png" alt="">
+                    </div>
+                    <div>
+                        <div class="result-popup__title">Увеличение среднего чека на 30%</div>
+                        <div class="result-popup__text">
+                            <p>
+                                «Газ-Альтернатива» - СТО позволяющее комплексно обслужить автомобиль — ремонт двигателя, ремонт подвески, компьютерная диагностика ДВС, установка и обслуживание автомобильного газового оборудования (ГБО), замена масел и технических жидкостей.
+                            </p>
+                            <p>
+                                В сентябре 2021 года начаты долгосрочные партнерские отношения с компанией Газ-Альтернатива. Компания на рынке обслуживания авто зарекомендовала себя как ответственный игрок с 20 летним опытом работы.
+                            </p>
+                            <p>
+                                Газ-Альтернатива, имела опыт работы с банком-партнером, который позволял через банковский терминал производить кредитование онлайн. Но заполнение анкета-заявки на кредит занимала большой промежуток времени (порядка 20 минут), что вызывало большое затруднение
+                                в активных трудовых буднях.
+                            </p>
+                            <p>
+                                После предложения сотрудничества компании Газ-Альтернатива, в течении 2 дней были согласованы условия и принцип работы между нами, а также подписаны необходимые документы.
+                            </p>
+                            <p>
+                                В первую неделю работы, команда Газ-Альтернатива была приятно удивлена объемом вводимой информации для получения финансирования клиентом, скоростью рассмотрения заявки, так же документов, подписываемый Лизингополучателем.
+                            </p>
+                            <p>
+                                К концу первого месяца нашей совместной работы, Газ-Альтернатива также показывала высокий уровень продаж, но благодаря нашей компании и профессионализму команды Газ-Альтернатива, средний чек компании вырос на 30%.
+                            </p>
+                            <p>
+                                За время нашего сотрудничества Газ-Альтернатива практически полностью отказалась от банковских продуктов и услуг, что способствует дальнейшему росту и развитию.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="popup__close" popup-close>
+                        <img src="static/img/content/close.svg" alt="" class="img-svg">
+                    </div>
+                </div>
+                <div class="popup__blur" popup-close></div>
+            </div>
+        </div>
+        <div class="popup" popupID="result-popup-2">
+            <div class="popup__container">
+                <div class="popup__block result-popup">
+                    <div>
+                        <p>
+                            Садовая техника и оборудование «Дачка.бел»
+                        </p>
+                        <img src="static/img/general/result-slide-2.png" alt="">
+                    </div>
+                    <div>
+                        <div class="result-popup__title">Рост товарооборота на 25%</div>
+                        <div class="result-popup__text">
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus qui explicabo aut enim dolore. Quo eum, omnis facere eveniet dignissimos facilis? Accusamus aliquid, qui vero ipsum eius perferendis iure magni, doloremque repellat totam repellendus
+                                dolor? Tenetur, saepe exercitationem esse, quam dolore soluta pariatur aspernatur culpa ut eos voluptates quia voluptatibus.
+                            </p>
+                            <p>
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa blanditiis molestiae odit, voluptate nobis dolorem? A in nostrum doloribus, vel nemo magnam aspernatur asperiores eos quae dicta nam temporibus adipisci consectetur, quam porro earum. Sunt
+                                quod minus praesentium natus voluptatibus.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="popup__close" popup-close>
+                        <img src="static/img/content/close.svg" alt="" class="img-svg">
+                    </div>
+                </div>
+                <div class="popup__blur" popup-close></div>
+            </div>
+        </div>
+        <!-- Попап отзыва -->
+        <div class="popup" popupID="review-popup">
+            <div class="popup__container">
+                <div class="popup__block review-popup">
+                    <div class="review-popup__img">
+                        <img src="static/img/general/review.png" alt="">
+                    </div>
+                    <div class="popup__close" popup-close>
+                        <img src="static/img/content/close.svg" alt="" class="img-svg">
+                    </div>
+                </div>
+                <div class="popup__blur" popup-close></div>
+            </div>
+        </div>
+        <footer class="footer">
+            <div class="wrapper">
+                <div class="footer__top">
+                    <div class="footer__logo">
+                        <img src="static/img/content/logo.svg" alt="">
+                    </div>
+                    <div class="footer__text">
+                        Вся информация, касающаяся условий лизинговых программ, носит информационный характер и не является публичной офертой. Для получения подробной информации, пожалуйста, обращайтесь к менеджерам ООО «Ювилс Лизинг».
+                    </div>
+                </div>
+                <div class="footer__bottom">
+                    <div>
+                        ООО «Ювилс Лизинг» УНП: 192825384
+                        <br>Свидетельство Национального Банка Республики Беларусь № 160 от 25.09.2019
+                    </div>
+                    <div>
+                        Copyright 2022
+                        <br>Все права защищены
+                    </div>
+                    <div><a popup-open="politika-popup">Политика конфиденциальности</a>
+                    </div>
+                    <div>
+                        Сделано с любовью в <a href="https://paradigma.website/" target="_blank">paradigma.website</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+
+        <script>
+            svg4everybody();
+        </script>
+
+        <script src="lightgallery/lightgallery.min.js"></script>
+        <script src="static/js/main.min.js"></script>
+    </body>
+
+</html>

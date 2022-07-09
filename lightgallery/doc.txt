@@ -1,0 +1,15 @@
+<div id="lightgallery" class="lightgallery">
+    <a href="static/img/general/photo-1.png">
+        <img alt="" src="static/img/general/photo-2.png" />
+    </a>
+    <a href="static/img/general/photo-1.png">
+        <img alt="" src="static/img/general/photo-2.png" />
+    </a>
+    <a href="static/img/general/photo-1.png">
+        <img alt="" src="static/img/general/photo-2.png" />
+    </a>
+</div>
+
+$(document).ready(function () {
+    // lightGallery(document.getElementById('lightgallery'), {});
+})
